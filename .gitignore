@@ -1,0 +1,13 @@
+# 数据库配置文件（含敏感信息）
+.claude/db-schema/config.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
