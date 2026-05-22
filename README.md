@@ -13,7 +13,27 @@
 | SQL验证 | 验证字段是否存在、NOT NULL误用检测 |
 | 增量更新 | 检测表结构变化并更新 |
 
-## 安装
+## 快速安装
+
+### 一行命令安装（推荐）
+
+**Linux / macOS:**
+```bash
+curl -sSL https://raw.githubusercontent.com/LuoWeiway/project_db_schema_skill/main/install | bash
+```
+
+**Windows (PowerShell):**
+```powershell
+pip install pymysql && python -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/LuoWeiway/project_db_schema_skill/main/install.py').read())"
+```
+
+**通用方式:**
+```bash
+pip install pymysql
+python -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/LuoWeiway/project_db_schema_skill/main/install.py').read())"
+```
+
+### 手动安装
 
 ### 1. 安装依赖
 
